@@ -46,6 +46,12 @@ server.post("/events", (req,res)=> {
 
 });
 
+server.delete(("/event/:id",req ,res) => {
+
+const id = number;
+
+});
+
 server.listen((port)  => {
     console.log('server is running')
 });
