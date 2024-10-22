@@ -10,6 +10,8 @@ const server= express();
     /attendes
     /user
     /creator
+    /StartTime
+    /EndTime
 */
 
 server.get("/events", (req,res)=> {
@@ -46,9 +48,7 @@ server.post("/events", (req,res)=> {
 
 });
 
-server.delete(("/event/:id",req ,res) => {
-
-const id = number;
+server.delete("/event/:id", (req ,res) =>  {
 
 });
 
